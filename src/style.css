@@ -1,0 +1,63 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.main-view {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-col,
+.left-col {
+  width: 40%;
+}
+
+.left-col .scores-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+form input {
+  padding: 1em;
+}
+
+form button {
+  width: 7em;
+  padding: 0.5em;
+  align-self: flex-end;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: solid 1px black;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
